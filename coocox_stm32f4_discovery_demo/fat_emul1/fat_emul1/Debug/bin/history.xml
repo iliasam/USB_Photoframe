@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.4 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=fat_emul1.map -Os --specs=nano.specs --gc-sections -ffunction-sections -fdata-sections -LC:/stm32/FAT/fat_emul6/fat_emul1 -TC:/stm32/FAT/fat_emul6/fat_emul1/arm-gcc-link.ld -g -L..\..\..\STM32F4-Discovery -lpdmfilter_gcc">
+      <target file="fat_emul1.elf" lastModified="14fd0471592">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="14e6decee1c"/>
+         <source file="..\obj\usb_core.o" lastModified="14e6decef12"/>
+         <source file="..\obj\mf_scaledfont.o" lastModified="14e6decef50"/>
+         <source file="..\obj\usbd_usr.o" lastModified="14e6decef90"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="14e6decefd2"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="14e6decf025"/>
+         <source file="..\obj\StorageMode.o" lastModified="14e6decf06f"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14e6decf09b"/>
+         <source file="..\obj\string_render.o" lastModified="14fd04040dc"/>
+         <source file="..\obj\stm32f4_discovery.o" lastModified="14e6decf1af"/>
+         <source file="..\obj\usbd_msc_core.o" lastModified="14e6decf209"/>
+         <source file="..\obj\usbd_core.o" lastModified="14e6decf268"/>
+         <source file="..\obj\main.o" lastModified="14fd047139f"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14e6decf33d"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="14e6decf3bb"/>
+         <source file="..\obj\mf_font.o" lastModified="14e6decf416"/>
+         <source file="..\obj\mf_rlefont.o" lastModified="14e6decf463"/>
+         <source file="..\obj\mf_bwfont.o" lastModified="14e6decf4a8"/>
+         <source file="..\obj\usbd_msc_scsi.o" lastModified="14e6decf5b8"/>
+         <source file="..\obj\usbd_desc.o" lastModified="14e6decf901"/>
+         <source file="..\obj\mf_encoding.o" lastModified="14e6decf932"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14e6decf98b"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14e6decf9d5"/>
+         <source file="..\obj\syscalls.o" lastModified="14e6decfa2d"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="14e6decfa98"/>
+         <source file="..\obj\mf_justify.o" lastModified="14e6decfb03"/>
+         <source file="..\obj\usb_bsp.o" lastModified="14e6decfb5b"/>
+         <source file="..\obj\usbd_req.o" lastModified="14e6decfbc5"/>
+         <source file="..\obj\usb_dcd_int.o" lastModified="14e6decfc4c"/>
+         <source file="..\obj\usbd_msc_data.o" lastModified="14e6decfc81"/>
+         <source file="..\obj\emfat.o" lastModified="14fd04041f5"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="14e6decfd78"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="14e6decfe0a"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="14e6decfe55"/>
+         <source file="..\obj\misc.o" lastModified="14e6decfe95"/>
+         <source file="..\obj\usb_dcd.o" lastModified="14e6decfef4"/>
+         <source file="..\obj\mf_wordwrap.o" lastModified="14e6decff4a"/>
+         <source file="..\obj\usbd_ioreq.o" lastModified="14e6decff93"/>
+         <source file="..\obj\usbd_msc_bot.o" lastModified="14e6decffed"/>
+         <source file="..\obj\mf_kerning.o" lastModified="14e6ded0039"/>
+         <source file="..\obj\image_render.o" lastModified="14fd04042a1"/>
+      </target>
+   </processor>
+</history>

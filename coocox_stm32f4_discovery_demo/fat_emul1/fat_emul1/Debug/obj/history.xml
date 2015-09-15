@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -Os -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DUSE_USB_OTG_FS -DHSE_VALUE=80000000 -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_OTG_Driver -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Class\msc -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\cmsis_boot -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Core\inc -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Core -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1 -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\STM32F4-Discovery -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Class -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers -I..\..\..\..\..\stm32\FAT -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\decoder -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\cmsis_lib\include -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Class\msc\inc -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\cmsis -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library -I..\..\..\..\..\stm32\FAT\fat_emul6 -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\cmsis_lib -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_OTG_Driver\inc">
+      <target file="StorageMode.o" lastModified="14e6decf06f">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Class\msc\src\StorageMode.c" lastModified="14ab0764a70"/>
+      </target>
+      <target file="usbd_msc_bot.o" lastModified="14e6decffed">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Class\msc\src\usbd_msc_bot.c" lastModified="1408475b7d0"/>
+      </target>
+      <target file="syscalls.o" lastModified="14e6decfa2d">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14e103510e8"/>
+      </target>
+      <target file="mf_bwfont.o" lastModified="14e6decf4a8">
+         <source file="..\..\..\decoder\mf_bwfont.c" lastModified="14e0a6cbdd6"/>
+      </target>
+      <target file="usbd_usr.o" lastModified="14e6decef90">
+         <source file="..\..\..\usbd_usr.c" lastModified="14ab00c0f20"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="14e6decf1af">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery.c" lastModified="14db310f2f0"/>
+      </target>
+      <target file="mf_rlefont.o" lastModified="14e6decf463">
+         <source file="..\..\..\decoder\mf_rlefont.c" lastModified="14e0a6cbdd6"/>
+      </target>
+      <target file="misc.o" lastModified="14e6decfe95">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14db310f2f0"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="14e6decff93">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Core\src\usbd_ioreq.c" lastModified="14db3202d60"/>
+      </target>
+      <target file="usbd_req.o" lastModified="14e6decfbc5">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Core\src\usbd_req.c" lastModified="14db3202d60"/>
+      </target>
+      <target file="usbd_msc_scsi.o" lastModified="14e6decf5b8">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Class\msc\src\usbd_msc_scsi.c" lastModified="1408475b7d0"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="14e6decf901">
+         <source file="..\..\..\usbd_desc.c" lastModified="1408475b7d0"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="14e6decfe55">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14db310f2f0"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14e6decf98b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14db3109d00"/>
+      </target>
+      <target file="image_render.o" lastModified="14fd04042a1">
+         <source file="..\..\..\image_render.c" lastModified="14fd038e249"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="14e6decfb5b">
+         <source file="..\..\..\usb_bsp.c" lastModified="1357c2b3970"/>
+      </target>
+      <target file="usbd_msc_data.o" lastModified="14e6decfc81">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Class\msc\src\usbd_msc_data.c" lastModified="1408475b7d0"/>
+      </target>
+      <target file="mf_justify.o" lastModified="14e6decfb03">
+         <source file="..\..\..\decoder\mf_justify.c" lastModified="14e0a6cbdd6"/>
+      </target>
+      <target file="usbd_core.o" lastModified="14e6decf268">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Core\src\usbd_core.c" lastModified="14db3202d60"/>
+      </target>
+      <target file="mf_font.o" lastModified="14e6decf416">
+         <source file="..\..\..\decoder\mf_font.c" lastModified="14e2fb56f2f"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14e6decf33d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14db3108d60"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="14e6decf025">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="14db310f2f0"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="14e6decefd2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="14db3109530"/>
+      </target>
+      <target file="mf_encoding.o" lastModified="14e6decf932">
+         <source file="..\..\..\decoder\mf_encoding.c" lastModified="14e0a6cbdd6"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="14e6decfef4">
+         <source file="..\..\..\Drivers\STM32_USB_OTG_Driver\src\usb_dcd.c" lastModified="1363a6fc040"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14e6decf09b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14e6dd067b8"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14e6decfa98">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14db310f2f0"/>
+      </target>
+      <target file="usbd_msc_core.o" lastModified="14e6decf209">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Class\msc\src\usbd_msc_core.c" lastModified="14de458dad0"/>
+      </target>
+      <target file="emfat.o" lastModified="14fd04041f5">
+         <source file="..\..\..\emfat.c" lastModified="14fd0403d82"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="14e6decf3bb">
+         <source file="..\..\..\stm32f4xx_it.c" lastModified="14db3573b20"/>
+      </target>
+      <target file="usb_core.o" lastModified="14e6decef12">
+         <source file="..\..\..\Drivers\STM32_USB_OTG_Driver\src\usb_core.c" lastModified="13e5c03b150"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="14e6decfe0a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14db310f2f0"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="14e6decee1c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14db310f2f0"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="14e6decfd78">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14db310f2f0"/>
+      </target>
+      <target file="mf_kerning.o" lastModified="14e6ded0039">
+         <source file="..\..\..\decoder\mf_kerning.c" lastModified="14e0a6cbdd6"/>
+      </target>
+      <target file="main.o" lastModified="14fd047139f">
+         <source file="..\..\..\main.c" lastModified="14fd04711db"/>
+      </target>
+      <target file="mf_wordwrap.o" lastModified="14e6decff4a">
+         <source file="..\..\..\decoder\mf_wordwrap.c" lastModified="14e0a6cbdd6"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14e6decf9d5">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="135b17ae620"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="14e6decfc4c">
+         <source file="..\..\..\Drivers\STM32_USB_OTG_Driver\src\usb_dcd_int.c" lastModified="149ad28f940"/>
+      </target>
+      <target file="mf_scaledfont.o" lastModified="14e6decef50">
+         <source file="..\..\..\decoder\mf_scaledfont.c" lastModified="14e0a6cbdd6"/>
+      </target>
+      <target file="string_render.o" lastModified="14fd04040dc">
+         <source file="..\..\..\string_render.c" lastModified="14fd0305116"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DUSE_USB_OTG_FS -DHSE_VALUE=80000000 -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_OTG_Driver -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Class\msc -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\cmsis_boot -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Core\inc -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Core -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1 -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\STM32F4-Discovery -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Class -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers -I..\..\..\..\..\stm32\FAT -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\decoder -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\cmsis_lib\include -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library\Class\msc\inc -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\cmsis -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_Device_Library -I..\..\..\..\..\stm32\FAT\fat_emul6 -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\cmsis_lib -I..\..\..\..\..\stm32\FAT\fat_emul6\fat_emul1\Drivers\STM32_USB_OTG_Driver\inc">
+      <target file="DejaVuSans48rus.o" lastModified="14e2fafae6e">
+         <source file="..\..\..\decoder\DejaVuSans48rus.c" lastModified="14e2fab931b"/>
+      </target>
+   </processor>
+</history>

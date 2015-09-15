@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<History> 
+  <File usedCount="2" path="drivers/stm32_usb_device_library/class/msc/inc/usbd_msc_data.h"/>  
+  <File usedCount="2" path="drivers/stm32_usb_device_library/class/msc/src/usbd_msc_data.c"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/inc/usb_bsp.h"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/inc/usb_core.h"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/inc/usb_dcd.h"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/inc/usb_dcd_int.h"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/inc/usb_defines.h"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/inc/usb_regs.h"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/src/usb_core.c"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/src/usb_dcd.c"/>  
+  <File usedCount="2" path="drivers/stm32_usb_otg_driver/src/usb_dcd_int.c"/>
+</History>
