@@ -1,0 +1,46 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-1106076249
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "D:\MYPROGS\PHOTOFRAME\code\test3_usb_cdc\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\iar\startup_stm32f107xc.s" ""
+A1=_ "D:\MYPROGS\PHOTOFRAME\code\test3_usb_cdc\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c" "D:\SHARE\STM32\photoframe\code\test3_usb_cdc_2\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c"
+A2=_ "D:\MYPROGS\PHOTOFRAME\code\test3_usb_cdc\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c" "D:\SHARE\STM32\photoframe\code\test3_usb_cdc_2\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c"
+A3=_ "D:\SHARE\STM32\photoframe\code\test3_usb_cdc_2\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c" ""
+A4=_ "D:\SHARE\STM32\photoframe\code\test3_usb_cdc_2\Src\usbd_cdc_if.c" ""
+Count=5
+SuppressDialog=1
