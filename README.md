@@ -7,5 +7,5 @@ This project contain demo code for STM32f4Discovery and code for specialized wea
 
 More info (in russian): http://geektimes.ru/post/262512/
 
-Devece modules schematic:
+Device modules schematic:
 ![Alt text](/visio_picture1.png?raw=true "Image")
