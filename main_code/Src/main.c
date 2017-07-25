@@ -1,4 +1,4 @@
-//Basic code for "USB Photoframe"
+п»ї//Basic code for "USB Photoframe"
 //Emulates USB Flash drive whith image at it
 //By LIASAM
 
@@ -16,7 +16,7 @@
 #include "bmp_header.h"
 
 
-// экземпляр виртуальной файловой системы FAT32
+// СЌРєР·РµРјРїР»СЏСЂ РІРёСЂС‚СѓР°Р»СЊРЅРѕР№ С„Р°Р№Р»РѕРІРѕР№ СЃРёСЃС‚РµРјС‹ FAT32
 emfat_t emfat;
 const uint32_t bmp_size = BMP_FULL_SIZE;
 const uint32_t bmp_width = BMP_WIDTH;
@@ -27,7 +27,7 @@ uint8_t current_back_color = BACK_COLOR_DAY;
 
 IWDG_HandleTypeDef hiwdg;//used for watchdog
 
-// Структура ФС
+// РЎС‚СЂСѓРєС‚СѓСЂР° Р¤РЎ
 //Filesystem stucture
 static emfat_entry_t entries[] =
 {
@@ -61,7 +61,7 @@ int main(void)
   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_12, GPIO_PIN_SET);//reset = 1 - main mode
   
   MX_USART3_UART_Init();
-  //MX_IWDG_Init();// не хватает времени
+  //MX_IWDG_Init();// РЅРµ С…РІР°С‚Р°РµС‚ РІСЂРµРјРµРЅРё
   
   reset_wifi();
   emfat_init(&emfat, "emfat", entries);
